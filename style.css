@@ -1,0 +1,69 @@
+/* FONT + RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background: #fff;
+  color: #111;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+}
+
+header h1 {
+  font-size: 28px;
+  letter-spacing: 4px;
+  font-weight: 600;
+}
+
+/* MAIN CONTENT */
+main {
+  flex: 1;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.hero {
+  height: 300px;
+  background: #f3f3f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/* BOTTOM NAV */
+.bottom-nav {
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  background: white;
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid #eee;
+  padding: 12px 0;
+}
+
+.bottom-nav a {
+  text-decoration: none;
+  color: #111;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+
+.bottom-nav a.active {
+  font-weight: 600;
+}
