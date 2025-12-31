@@ -115,3 +115,25 @@ main {
 .bottom-nav a.active {
   font-weight: bold;
 }
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.category-links {
+  margin-top: 20px;
+}
+
+.category-links a {
+  display: block;
+  padding: 10px 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+.menu-container a {
+  display: block;
+  padding: 12px 0;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
